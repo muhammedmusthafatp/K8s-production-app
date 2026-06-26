@@ -3,18 +3,14 @@ kind: Ingress
 metadata:
   name: nginx-ingress
   namespace: production-app
-
 spec:
   ingressClassName: nginx
-
   rules:
-  - host: nginx.local
-
+  - host: myapp.local
     http:
       paths:
       - path: /
         pathType: Prefix
-
         backend:
           service:
             name: nginx-service
