@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx-service
-  namespace: production-app
+  namespace: k8-production
 spec:
   selector:
     app: nginx
