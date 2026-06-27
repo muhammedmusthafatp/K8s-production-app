@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-app
-  namespace: production-app
+  namespace: k8-production
 spec:
   replicas: 3
   strategy:
