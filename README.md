@@ -30,11 +30,11 @@ This project deploys a **production-grade application** on a self-hosted Kuberne
                         └──────┬──────┘
                                │ HTTP/HTTPS
                         ┌──────▼──────────────┐
-                        │   NGINX Ingress      │  ← Host-based routing
+                        │   NGINX Ingress     │  ← Host-based routing
                         └──────┬──────────────┘
                                │
                         ┌──────▼──────────────┐
-                        │   ClusterIP Service  │  ← Load balancing
+                        │   ClusterIP Service │  ← Load balancing
                         └──────┬──────────────┘
                                │
               ┌────────────────┼────────────────┐
@@ -47,7 +47,7 @@ This project deploys a **production-grade application** on a self-hosted Kuberne
                   ┌────────────┴────────────┐
                   │                         │
            ┌──────▼──────┐         ┌────────▼───────┐
-           │  ConfigMap   │         │     Secret      │
+           │  ConfigMap  │         │     Secret     │
            └─────────────┘         └────────────────┘
 
            ┌──────────────────────────────────────────┐
